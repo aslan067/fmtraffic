@@ -1,1 +1,25 @@
+{
+  "heroTitle": "Trafik ve yol güvenliği ürünlerinde\nAvrupa’ya hızlı tedarik",
+  "heroDesc": "Delinatör, trafik konisi, hız kesici, yol çizgisi ve LED uyarı çözümleri. Stoktan hızlı sevkiyat, kurumsal fiyatlandırma ve marka özelleştirme.",
+  "chips": ["CE/EN Uyumlu", "Hızlı Teslimat", "OEM / Özel Baskı"],
+  "kpi1": "48–72s", "kpi1s": "AB’ye Sevkiyat",
+  "kpi2": "%99", "kpi2s": "Zamanında Teslim",
+  "kpi3": "500+", "kpi3s": "SKU",
+  "productsTitle": "Başlıca Ürün Grupları",
+  "productsDesc": "En çok talep gören ürünlerimizi seçtik. Detaylar ve varyantlar için kataloğa göz atın.",
+  "bullets": [
+    "CE/EN uyumlu, UV ve darbe dayanımlı malzeme.",
+    "Avrupa deposundan 48–72 saatte sevkiyat.",
+    "Toplu alımlarda B2B fiyatlandırma ve sözleşmeli tedarik.",
+    "Renk, logo ve ambalaj dahil marka özelleştirme.",
+    "Teknik dokümantasyon ve test raporları."
+  ],
+  "cards": [
+    { "title": "Delinatör & Koniler", "desc": "Yüksek geri yansıtıcı folyo, UV dayanımı ve farklı taban seçenekleri." },
+    { "title": "Hız Kesiciler", "desc": "Kauçuk & TPU modüller, reflektörlü ağır hizmet seçenekleri." },
+    { "title": "Yol Çizgi & Boya", "desc": "Soğuk yol çizgi boyaları ve ekipmanları, uygulama desteği." },
+    { "title": "LED & Uyarı", "desc": "LED ikaz lambaları, flaşörler ve solar uyarı sistemleri." },
+    { "title": "Park & Bariyer", "desc": "Otopark babaları, esnek bariyerler ve koruma sistemleri." }
+  ]
+}
 
