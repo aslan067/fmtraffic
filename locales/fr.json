@@ -1,1 +1,25 @@
+{
+  "heroTitle": "Produits de sécurité routière avec\nlivraison rapide dans toute l’Europe",
+  "heroDesc": "Balises de guidage, cônes, ralentisseurs, marquage routier et systèmes d’alerte LED. Expédition rapide depuis stock, tarifs B2B, private label.",
+  "chips": ["Conforme CE/EN", "Livraison rapide", "OEM / Marque privée"],
+  "kpi1": "48–72h", "kpi1s": "Expédition UE",
+  "kpi2": "99%", "kpi2s": "Livraison à temps",
+  "kpi3": "500+", "kpi3s": "Références",
+  "productsTitle": "Lignes de produits clés",
+  "productsDesc": "Nos articles les plus demandés. Voir le catalogue pour toutes les variantes.",
+  "bullets": [
+    "Matériaux conformes CE/EN, haute résistance UV et aux chocs.",
+    "Entrepôt UE : expédition en 48–72h.",
+    "Tarifs B2B et contrats d’approvisionnement pour volumes.",
+    "Personnalisation de marque : couleur, logo, packaging.",
+    "Documentation technique et rapports d’essais."
+  ],
+  "cards": [
+    { "title": "Balises & Cônes", "desc": "Films hautement rétro-réfléchissants, résistance UV, bases variées." },
+    { "title": "Ralentisseurs", "desc": "Modules en caoutchouc & TPU, versions renforcées avec réflecteurs." },
+    { "title": "Marquage Routier", "desc": "Peintures à froid et équipements, support d’application." },
+    { "title": "Systèmes d’Alerte LED", "desc": "Balises LED, gyrophares, systèmes solaires." },
+    { "title": "Parking & Barrières", "desc": "Bornes de parking, barrières flexibles et protections." }
+  ]
+}
 
