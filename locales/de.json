@@ -1,1 +1,25 @@
+{
+  "heroTitle": "Verkehrssicherheitsprodukte mit\nschneller Lieferung in ganz Europa",
+  "heroDesc": "Leitbaken, Verkehrskegel, Temposchwellen, Fahrbahnmarkierung und LED-Warnsysteme. Schneller Versand ab Lager, B2B-Preise, Private Label.",
+  "chips": ["CE/EN Konform", "Schnelle Lieferung", "OEM / Private Label"],
+  "kpi1": "48–72h", "kpi1s": "EU-Versand",
+  "kpi2": "99%", "kpi2s": "Pünktliche Lieferung",
+  "kpi3": "500+", "kpi3s": "Artikel",
+  "productsTitle": "Wichtige Produktlinien",
+  "productsDesc": "Unsere gefragtesten Artikel. Vollständige Spezifikationen im Katalog.",
+  "bullets": [
+    "CE/EN-konforme Materialien mit hoher UV- und Schlagfestigkeit.",
+    "EU-Lager: Versand innerhalb von 48–72h.",
+    "B2B-Preise und Vertragslieferungen für Großmengen.",
+    "Marken-Customizing inkl. Farbe, Logo und Verpackung.",
+    "Technische Dokumentation & Prüfberichte."
+  ],
+  "cards": [
+    { "title": "Leitbaken & Verkehrskegel", "desc": "Hochreflektierende Folie, UV-Beständigkeit, verschiedene Fußoptionen." },
+    { "title": "Temposchwellen", "desc": "Gummi & TPU-Module, schwere Ausführungen mit Reflektoren." },
+    { "title": "Fahrbahnmarkierung", "desc": "Kalt aufzubringende Markierungsfarben, Geräte & Support." },
+    { "title": "LED-Warnsysteme", "desc": "LED-Baken, Blitzleuchten und Solarsysteme." },
+    { "title": "Parken & Barrieren", "desc": "Poller, flexible Barrieren und Schutzsysteme." }
+  ]
+}
 
