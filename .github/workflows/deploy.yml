@@ -27,7 +27,7 @@ jobs:
           node-version: 20
 
       - name: Install deps
-        run: npm ci
+        run: npm install   # 👈 BURAYI DEĞİŞTİRDİK
 
       - name: Build & Export
         run: npm run build
@@ -47,4 +47,3 @@ jobs:
       - name: Deploy to Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
