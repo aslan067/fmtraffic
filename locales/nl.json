@@ -1,1 +1,25 @@
+{
+  "heroTitle": "Verkeersveiligheidsproducten met\nsnelle levering in heel Europa",
+  "heroDesc": "Geleidebaken, verkeerskegels, snelheidsdrempels, wegmarkering en LED-waarschuwingssystemen. Snelle levering uit voorraad, B2B-tarieven en private label.",
+  "chips": ["CE/EN Conform", "Snelle levering", "OEM / Private Label"],
+  "kpi1": "48–72u", "kpi1s": "EU-Verzending",
+  "kpi2": "99%", "kpi2s": "Op tijd geleverd",
+  "kpi3": "500+", "kpi3s": "Artikelen",
+  "productsTitle": "Belangrijkste productlijnen",
+  "productsDesc": "Onze meest gevraagde items. Zie de catalogus voor alle varianten.",
+  "bullets": [
+    "CE/EN-conforme materialen met hoge UV- en slagbestendigheid.",
+    "EU-magazijn: verzending binnen 48–72 uur.",
+    "B2B-prijzen en contractleveringen voor volumes.",
+    "Merkpersonalisatie: kleur, logo en verpakking.",
+    "Technische documentatie en testrapporten."
+  ],
+  "cards": [
+    { "title": "Geleidebaken & Verkeerskegels", "desc": "Hoogreflecterende folie, UV-bestendig, diverse voetopties." },
+    { "title": "Snelheidsdrempels", "desc": "Rubber & TPU-modules, zware uitvoering met reflectoren." },
+    { "title": "Wegmarkering", "desc": "Koud aangebrachte markeerverf en apparatuur, applicatie-support." },
+    { "title": "LED-Waarschuwingssystemen", "desc": "LED-bakens, flitsers en solar waarschuwingssystemen." },
+    { "title": "Parkeren & Barrières", "desc": "Parkeerpalen, flexibele barrières en beschermsystemen." }
+  ]
+}
 
