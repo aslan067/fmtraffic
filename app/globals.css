@@ -86,3 +86,45 @@
     z-index: 20;
   }
 }
+
+/* === SAFE PATCH: ICONS + CTA VISIBILITY (non-breaking) === */
+
+/* Kartlardaki küçük ikonlar: sadece kart içinde hedefliyoruz */
+.cards .card svg {
+  width: 34px;
+  height: 34px;
+  stroke: #ffb300;           /* çerçeve */
+  stroke-width: 2;
+  filter: drop-shadow(0 2px 6px rgba(255,106,0,.35));
+}
+
+/* İkon iç dolgusu */
+.cards .card svg path:not([stroke]) {
+  fill: #ff6a00;
+}
+
+/* Kare çerçeve (rect) çizgisi */
+.cards .card svg rect {
+  stroke: #ffb300;
+}
+
+/* CTA butonlarının üstte kalması (hero-visual / glass overlap fix) */
+.hero .cta,
+.cta { position: relative; z-index: 5; }
+.hero .cta .btn,
+.cta .btn { position: relative; z-index: 6; }
+
+/* Secondary (Products / Catalog) butonu daha görünür olsun */
+.btn.secondary {
+  background: rgba(255,255,255,.08) !important;
+  color: #e5e7eb !important;
+  border: 1px solid rgba(255,255,255,.28) !important;
+  backdrop-filter: blur(6px);
+}
+.btn.secondary:hover {
+  background: rgba(255,255,255,.14) !important;
+  border-color: rgba(255,255,255,.45) !important;
+}
+
+/* Glass katmanı butonların üstüne binmesin */
+.hero-visual .glass { position: relative; z-index: 1; }
