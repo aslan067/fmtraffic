@@ -55,16 +55,24 @@ footer{border-top:1px solid #182036;color:#9aa6bf}
 }
 .float{animation:float 6s ease-in-out infinite}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+/* === FM Traffic – Card Icons Fix === */
 
 .card svg {
-  stroke: #ffb300;
+  width: 34px;
+  height: 34px;
+  stroke: #ffb300;              /* dış çizgi */
+  stroke-width: 2;
 }
 
 .card svg path {
-  fill: #ff6a00;
+  fill: #ff6a00;                /* iç dolgu */
 }
 
 .card svg rect {
   stroke: #ffb300;
 }
 
+/* Glass / dark background separation */
+.card svg {
+  filter: drop-shadow(0 2px 6px rgba(255, 106, 0, 0.35));
+}
