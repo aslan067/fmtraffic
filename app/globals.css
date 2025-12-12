@@ -56,3 +56,15 @@ footer{border-top:1px solid #182036;color:#9aa6bf}
 .float{animation:float 6s ease-in-out infinite}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
 
+.card svg {
+  stroke: #ffb300;
+}
+
+.card svg path {
+  fill: #ff6a00;
+}
+
+.card svg rect {
+  stroke: #ffb300;
+}
+
