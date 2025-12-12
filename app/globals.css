@@ -98,3 +98,29 @@ footer{border-top:1px solid #182036;color:#9aa6bf}
 
 /* Glass katmanı butonların üstüne binmesin */
 .hero-visual .glass { position: relative; z-index: 1; }
+
+/* === FORCE SVG ICON FIX (cards only) === */
+
+/* Kart içindeki SVG'lerin resetlenmesini engelle */
+.cards .card svg {
+  fill: none !important;
+  stroke: none !important;
+}
+
+/* Kare çerçeve */
+.cards .card svg rect {
+  stroke: #ffb300 !important;
+  stroke-width: 2 !important;
+  fill: none !important;
+}
+
+/* İç ikon (dolu alan) */
+.cards .card svg path {
+  fill: #ff6a00 !important;
+  stroke: none !important;
+}
+
+/* Hafif premium gölge */
+.cards .card svg {
+  filter: drop-shadow(0 2px 6px rgba(255,106,0,.35));
+}
