@@ -184,7 +184,7 @@ export default function Page({ params }) {
           <small>© {new Date().getFullYear()} FM Traffic.</small>
           <div style={{ display: "flex", gap: "10px" }}>
             <a className="pill" href="#products">{t.viewCatalog}</a>
-            <a className="pill" href="mailto:sales@fmtraffic.com">sales@fmtraffic.com</a>
+            <a className="pill" href="mailto:info@fmtrafik.com">info@fmtrafik.com</a>
           </div>
         </div>
       </footer>
