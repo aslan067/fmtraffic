@@ -155,13 +155,13 @@ export default function Page({ params }) {
                 <div className="cta">
                   <a
                     className="btn"
-                    href="https://wa.me/900000000000"
+                    href="https://wa.me/905454888381"
                     target="_blank"
                     rel="noopener"
                   >
                     {t.whatsapp}
                   </a>
-                  <a className="btn secondary" href="mailto:sales@fmtraffic.com">
+                  <a className="btn secondary" href="mailto:info@fmtrafik.com">
                     {t.email}
                   </a>
                 </div>
