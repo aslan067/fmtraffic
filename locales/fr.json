@@ -1,6 +1,6 @@
 {
-  "heroTitle": "Produits de sécurité routière avec\nlivraison rapide dans toute l’Europe",
-  "heroDesc": "Balises de guidage, cônes, ralentisseurs, marquage routier et systèmes d’alerte LED. Expédition rapide depuis stock, tarifs B2B, private label.",
+  "heroTitle": "Produits de sécurité routière avec\nlivraison rapide dans toute l'Europe",
+  "heroDesc": "Balises de guidage, cônes, ralentisseurs, marquage routier et systèmes d'alerte LED. Expédition rapide depuis stock, tarifs B2B, private label.",
   "chips": ["Conforme CE/EN", "Livraison rapide", "OEM / Marque privée"],
   "kpi1": "48–72h", "kpi1s": "Expédition UE",
   "kpi2": "99%", "kpi2s": "Livraison à temps",
@@ -10,16 +10,23 @@
   "bullets": [
     "Matériaux conformes CE/EN, haute résistance UV et aux chocs.",
     "Entrepôt UE : expédition en 48–72h.",
-    "Tarifs B2B et contrats d’approvisionnement pour volumes.",
+    "Tarifs B2B et contrats d'approvisionnement pour volumes.",
     "Personnalisation de marque : couleur, logo, packaging.",
-    "Documentation technique et rapports d’essais."
+    "Documentation technique et rapports d'essais."
   ],
   "cards": [
     { "title": "Balises & Cônes", "desc": "Films hautement rétro-réfléchissants, résistance UV, bases variées." },
     { "title": "Ralentisseurs", "desc": "Modules en caoutchouc & TPU, versions renforcées avec réflecteurs." },
-    { "title": "Marquage Routier", "desc": "Peintures à froid et équipements, support d’application." },
-    { "title": "Systèmes d’Alerte LED", "desc": "Balises LED, gyrophares, systèmes solaires." },
+    { "title": "Marquage Routier", "desc": "Peintures à froid et équipements, support d'application." },
+    { "title": "Systèmes d'Alerte LED", "desc": "Balises LED, gyrophares, systèmes solaires." },
     { "title": "Parking & Barrières", "desc": "Bornes de parking, barrières flexibles et protections." }
-  ]
+  ],
+  "contactUs": "Nous contacter",
+  "viewCatalog": "Voir les produits",
+  "whatsapp": "WhatsApp",
+  "email": "Envoyer un e-mail",
+  "whyTitle": "Pourquoi FM Traffic ?",
+  "whyDesc": "Nous fournissons des équipements de sécurité routière aux municipalités, entrepreneurs et distributeurs à travers l'Europe. Prix fabricant directs, produits certifiés CE, expédition rapide en UE et possibilité de marque privée.",
+  "ctaTitle": "Prêt à commander ou demander un devis ?",
+  "footerLine": "© FM Traffic. Fournisseur européen d'équipements de sécurité routière."
 }
-

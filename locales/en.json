@@ -20,6 +20,13 @@
     { "title": "Line Marking", "desc": "Cold-applied road marking paints and equipment, application support." },
     { "title": "LED Warning", "desc": "LED beacons, flashers and solar warning systems." },
     { "title": "Parking & Barriers", "desc": "Parking bollards, flexible barriers and protection systems." }
-  ]
+  ],
+  "contactUs": "Contact Us",
+  "viewCatalog": "View Products",
+  "whatsapp": "WhatsApp Us",
+  "email": "Send E-mail",
+  "whyTitle": "Why FM Traffic?",
+  "whyDesc": "We supply road-safety equipment to municipalities, contractors and distributors across Europe. Direct manufacturer pricing, CE-certified products, fast EU dispatch and full private-label capability.",
+  "ctaTitle": "Ready to order or request a quote?",
+  "footerLine": "© FM Traffic. EU Road-Safety Equipment Supplier."
 }
-

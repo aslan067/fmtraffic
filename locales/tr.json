@@ -1,8 +1,8 @@
 {
-  "heroTitle": "Trafik ve yol güvenliği ürünlerinde\nAvrupa’ya hızlı tedarik",
+  "heroTitle": "Trafik ve yol güvenliği ürünlerinde\nAvrupa'ya hızlı tedarik",
   "heroDesc": "Delinatör, trafik konisi, hız kesici, yol çizgisi ve LED uyarı çözümleri. Stoktan hızlı sevkiyat, kurumsal fiyatlandırma ve marka özelleştirme.",
   "chips": ["CE/EN Uyumlu", "Hızlı Teslimat", "OEM / Özel Baskı"],
-  "kpi1": "48–72s", "kpi1s": "AB’ye Sevkiyat",
+  "kpi1": "48–72s", "kpi1s": "AB'ye Sevkiyat",
   "kpi2": "%99", "kpi2s": "Zamanında Teslim",
   "kpi3": "500+", "kpi3s": "SKU",
   "productsTitle": "Başlıca Ürün Grupları",
@@ -20,6 +20,13 @@
     { "title": "Yol Çizgi & Boya", "desc": "Soğuk yol çizgi boyaları ve ekipmanları, uygulama desteği." },
     { "title": "LED & Uyarı", "desc": "LED ikaz lambaları, flaşörler ve solar uyarı sistemleri." },
     { "title": "Park & Bariyer", "desc": "Otopark babaları, esnek bariyerler ve koruma sistemleri." }
-  ]
+  ],
+  "contactUs": "Bize Ulaşın",
+  "viewCatalog": "Ürünleri Gör",
+  "whatsapp": "WhatsApp Yaz",
+  "email": "E-posta Gönder",
+  "whyTitle": "Neden FM Traffic?",
+  "whyDesc": "Avrupa genelinde belediyeler, müteahhitler ve distribütörlere yol güvenliği ekipmanı tedarik ediyoruz. Üretici doğrudan fiyatları, CE sertifikalı ürünler, hızlı AB sevkiyatı ve tam özel marka imkânı.",
+  "ctaTitle": "Sipariş vermek veya teklif almak ister misiniz?",
+  "footerLine": "© FM Traffic. AB Yol Güvenliği Ekipmanı Tedarikçisi."
 }
-
