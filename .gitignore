@@ -1,0 +1,12 @@
+# Next.js build cache (not needed in repo)
+.next/
+
+# Dependencies
+node_modules/
+
+# Local env
+.env*.local
+
+# OS
+.DS_Store
+Thumbs.db

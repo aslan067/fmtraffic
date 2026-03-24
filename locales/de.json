@@ -20,6 +20,13 @@
     { "title": "Fahrbahnmarkierung", "desc": "Kalt aufzubringende Markierungsfarben, Geräte & Support." },
     { "title": "LED-Warnsysteme", "desc": "LED-Baken, Blitzleuchten und Solarsysteme." },
     { "title": "Parken & Barrieren", "desc": "Poller, flexible Barrieren und Schutzsysteme." }
-  ]
+  ],
+  "contactUs": "Kontakt aufnehmen",
+  "viewCatalog": "Produkte ansehen",
+  "whatsapp": "WhatsApp schreiben",
+  "email": "E-Mail senden",
+  "whyTitle": "Warum FM Traffic?",
+  "whyDesc": "Wir beliefern Kommunen, Auftragnehmer und Distributoren in ganz Europa mit Verkehrssicherheitsprodukten. Direktpreise vom Hersteller, CE-zertifizierte Produkte, schneller EU-Versand und vollständige Private-Label-Möglichkeiten.",
+  "ctaTitle": "Bereit zur Bestellung oder Anfrage?",
+  "footerLine": "© FM Traffic. EU-Lieferant für Verkehrssicherheitsprodukte."
 }
-

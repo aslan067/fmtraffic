@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#0b1425"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="-10%" r="70%">
+      <stop offset="0%" stop-color="#ff6a00" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ff6a00" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cone" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffb300"/>
+      <stop offset="100%" stop-color="#ff6a00"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Border -->
+  <rect x="2" y="2" width="1196" height="626" rx="16" fill="none" stroke="#1f2a49" stroke-width="3"/>
+
+  <!-- Traffic cone illustration -->
+  <g transform="translate(820, 80)">
+    <ellipse cx="130" cy="390" rx="110" ry="18" fill="rgba(0,0,0,0.4)"/>
+    <path d="M130 30l80 300H50L130 30z" fill="url(#cone)"/>
+    <rect x="72" y="175" width="116" height="30" rx="7" fill="rgba(255,255,255,0.85)"/>
+    <rect x="60" y="230" width="140" height="30" rx="7" fill="rgba(255,255,255,0.85)"/>
+    <rect x="20" y="320" width="220" height="22" rx="11" fill="#121b33" stroke="#1f2a49" stroke-width="1.5"/>
+  </g>
+
+  <!-- Logo mark -->
+  <g transform="translate(80, 72)">
+    <rect width="56" height="56" rx="14" fill="#ff6a00"/>
+    <path d="M28 8l14 44H14L28 8z" fill="#fff"/>
+    <path d="M28 20l7 23H21l7-23z" fill="#ff6a00"/>
+  </g>
+
+  <!-- Brand name -->
+  <text x="150" y="118" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="38" font-weight="800" fill="#e5e7eb" letter-spacing="0.5">FM Traffic</text>
+  <rect x="150" y="128" width="58" height="20" rx="10" fill="none" stroke="#27324a" stroke-width="1.5"/>
+  <text x="179" y="142" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#94a3b8" text-anchor="middle">EU Supply</text>
+
+  <!-- Headline -->
+  <text x="80" y="240" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="58" font-weight="800" fill="#ffffff" letter-spacing="-0.5">Road-safety products</text>
+  <text x="80" y="310" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="58" font-weight="800" fill="#ff6a00" letter-spacing="-0.5">fast EU supply</text>
+
+  <!-- Subheadline -->
+  <text x="80" y="370" font-family="system-ui,sans-serif" font-size="24" fill="#94a3b8">Delineators · Cones · Speed Bumps · Line Marking · LED Warning</text>
+
+  <!-- KPI chips -->
+  <g transform="translate(80, 410)">
+    <!-- Chip 1 -->
+    <rect width="160" height="46" rx="23" fill="#0f172a" stroke="#27324a" stroke-width="1.5"/>
+    <text x="80" y="22" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">48–72h</text>
+    <text x="80" y="38" font-family="system-ui,sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle">EU Dispatch</text>
+    <!-- Chip 2 -->
+    <rect x="176" width="140" height="46" rx="23" fill="#0f172a" stroke="#27324a" stroke-width="1.5"/>
+    <text x="246" y="22" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">99%</text>
+    <text x="246" y="38" font-family="system-ui,sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle">On-time</text>
+    <!-- Chip 3 -->
+    <rect x="332" width="140" height="46" rx="23" fill="#0f172a" stroke="#27324a" stroke-width="1.5"/>
+    <text x="402" y="22" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">500+</text>
+    <text x="402" y="38" font-family="system-ui,sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle">SKUs</text>
+    <!-- Chip 4 -->
+    <rect x="488" width="200" height="46" rx="23" fill="rgba(255,106,0,0.15)" stroke="#ff6a00" stroke-width="1.5"/>
+    <text x="588" y="30" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#ff6a00" text-anchor="middle">CE/EN Compliant</text>
+  </g>
+
+  <!-- Domain -->
+  <text x="80" y="560" font-family="system-ui,sans-serif" font-size="20" fill="#4a5568">fmtraffic.com</text>
+</svg>
