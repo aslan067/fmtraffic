@@ -47,25 +47,25 @@ fmtraffic/
 
 ---
 
-## Multi-page structure (EN + DE)
+## Multi-page structure
 
-Besides the home page, these pages exist **only in `en` and `de`** (Germany is the priority market;
-`PAGE_LANGS` in `lib/site.js`). NL/FR have the home page only; their header shows no sub-navigation.
+Besides the home page, these pages exist in **all four languages** (`PAGE_LANGS` in `lib/site.js`;
+Germany is the priority market). Every text has en/de/nl/fr versions — keep them in sync.
 
 | Route | File |
 |-------|------|
-| `/{en,de}/products/{slug}/` | `app/[lang]/products/[slug]/page.jsx` — 7 categories from `lib/catalog.js` |
-| `/{en,de}/how-we-work/` | `app/[lang]/how-we-work/page.jsx` — ordering steps, EXW, Customs Union, CE, private label, FAQ |
-| `/{en,de}/contact/` | `app/[lang]/contact/page.jsx` — quote checklist, prefilled mailto, WhatsApp |
+| `/{lang}/products/{slug}/` | `app/[lang]/products/[slug]/page.jsx` — 7 categories from `lib/catalog.js` |
+| `/{lang}/how-we-work/` | `app/[lang]/how-we-work/page.jsx` — ordering steps, EXW, Customs Union, CE, private label, FAQ |
+| `/{lang}/contact/` | `app/[lang]/contact/page.jsx` — quote checklist, prefilled mailto, WhatsApp |
 
 - Sub-pages restrict languages with `generateStaticParams` + `dynamicParams = false`, and set their own
-  `alternates` (canonical + hreflang en/de/x-default) via `pageAlternates()` in `lib/site.js`.
+  `alternates` (canonical + hreflang for all languages + x-default) via `pageAlternates()` in `lib/site.js`.
 - Shared header/footer: `components/SiteHeader.jsx`, `components/SiteFooter.jsx` (the language switcher
   keeps the user on the same page when it exists in the target language).
 - Product photos: `public/products/*.webp` (max 640 px), taken from trafikgerecleri.com with permission.
   Do not use photos that show another brand's name.
 - `app/sitemap.js` builds `/sitemap.xml` from the catalogue (there is no `public/sitemap.xml`).
-- To add a category: add an entry to `CATEGORIES` in `lib/catalog.js` (en + de texts) and its image.
+- To add a category: add an entry to `CATEGORIES` in `lib/catalog.js` (en/de/nl/fr texts) and its image.
 
 ## Development Commands
 
