@@ -180,5 +180,65 @@ footer { border-top: 1px solid #182036; color: #9aa6bf }
   .pill { padding: .2rem .5rem; font-size: .85rem }
   .pill.ext { margin-left: 0 }
   .glass { margin-top: -20px }
+  .products { grid-template-columns: 1fr 1fr; gap: 12px }
+  .product { padding: 12px }
+  .photo { max-width: 300px }
   .btn { flex: 1 1 auto; justify-content: center }
+}
+
+/* ---- Multi-page additions ---- */
+
+/* Main navigation (EN/DE) */
+.mainnav { display: flex; gap: 18px; font-weight: 600; font-size: .95rem; margin-left: auto; margin-right: 12px }
+.mainnav a { color: var(--muted) }
+.mainnav a:hover { color: var(--text) }
+
+/* Footer */
+.footer-row { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px }
+.footer-links { display: flex; flex-wrap: wrap; gap: 10px }
+
+/* Sub-page layout */
+.narrow > * { max-width: 860px }
+.lead { font-size: clamp(16px, 1.7vw, 19px); color: var(--muted); margin: .6rem 0 1.2rem }
+main h1 { font-size: clamp(28px, 3.6vw, 46px); line-height: 1.15; margin: .2rem 0 .4rem; text-wrap: balance }
+.page-hero { display: grid; grid-template-columns: 1.1fr .9fr; gap: 32px; align-items: center; padding-top: clamp(24px, 4vw, 48px) }
+.page-hero > * { min-width: 0 }
+.crumbs { display: block; font-size: .9rem; color: var(--muted); margin-bottom: .6rem }
+.crumbs a:hover, .textlink:hover { color: var(--brand-2) }
+.textlink { color: var(--brand-2); font-weight: 600 }
+
+/* Product photos sit on a light tile (source images have white backgrounds) */
+.photo, .product img {
+  background: #fff;
+  border-radius: 18px;
+}
+.photo { padding: 12px; max-width: 460px; justify-self: center }
+.photo img { display: block; width: 100%; height: auto }
+.product img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; margin-bottom: 12px }
+.products { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); margin: 18px 0 10px }
+.product h3 { font-size: 1rem }
+
+/* Linked cards */
+.linkcard { display: block; transition: .2s border-color, .2s transform }
+.linkcard:hover { border-color: var(--brand); transform: translateY(-2px) }
+
+/* Steps, two-column info cards, FAQ */
+.steps { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); padding: 0; list-style: none; margin-top: 18px }
+.stepno {
+  display: inline-grid; place-items: center; width: 34px; height: 34px; border-radius: 50%;
+  background: linear-gradient(180deg, var(--brand), var(--brand-2)); color: #111827; font-weight: 800;
+}
+.steps p, .twocol p { margin: 0 }
+.twocol { grid-template-columns: repeat(2, 1fr) }
+.twocol h2 { font-size: 1.2rem }
+.faq { border-bottom: 1px solid #202a45; padding: 12px 0 }
+.faq summary { cursor: pointer; font-weight: 600 }
+.faq p { margin: .5rem 0 0 }
+main > section + section { margin-top: clamp(8px, 2vw, 20px) }
+
+@media (max-width: 960px) {
+  .page-hero { grid-template-columns: 1fr }
+  .twocol { grid-template-columns: 1fr }
+  .mainnav { order: 3; width: 100%; margin: 0; justify-content: flex-start }
+  nav { flex-wrap: wrap }
 }
