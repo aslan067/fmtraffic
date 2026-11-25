@@ -1,6 +1,9 @@
 "use client";
 
-import '../../app/globals.css';
+import SiteHeader from '../../components/SiteHeader';
+import SiteFooter from '../../components/SiteFooter';
+import { CATEGORIES } from '../../lib/catalog';
+import { PAGE_LANGS } from '../../lib/site';
 
 import en from '../../locales/en.json';
 import de from '../../locales/de.json';
@@ -72,45 +75,7 @@ export default function Page({ params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <header>
-        <div className="container">
-          <nav aria-label="Main navigation">
-            <a className="logo" href={`/${lang}/`} aria-label="FM Traffic — Home">
-              <svg width="28" height="28" viewBox="0 0 128 128" aria-hidden="true">
-                <rect width="128" height="128" rx="28" fill="#ff6a00"/>
-                <path d="M64 16l28 88H36L64 16z" fill="#fff"/>
-                <path d="M64 42l14 46H50l14-46z" fill="#ff6a00"/>
-              </svg>
-              <span>FM Traffic</span>
-              <span className="badge">B2B Export</span>
-            </a>
-
-            <div className="langs" role="navigation" aria-label="Language switcher">
-              {SUPPORTED.map(l => (
-                <a
-                  key={l}
-                  className="pill"
-                  href={`/${l}/`}
-                  aria-label={`Switch to ${l.toUpperCase()}`}
-                  aria-current={l === lang ? 'page' : undefined}
-                >
-                  {l.toUpperCase()}
-                </a>
-              ))}
-              <a
-                className="pill ext"
-                href="https://fmtrafik.com/"
-                hrefLang="tr"
-                lang="tr"
-                title="fmtrafik.com"
-                aria-label="Türkçe site: fmtrafik.com"
-              >
-                TR <span aria-hidden="true">↗</span>
-              </a>
-            </div>
-          </nav>
-        </div>
-      </header>
+      <SiteHeader lang={lang} />
 
       <main>
         <section className="container hero" aria-label="Hero">
@@ -181,6 +146,17 @@ export default function Page({ params }) {
           <h2 id="products-title">{t.productsTitle}</h2>
           <p className="muted">{t.productsDesc}</p>
 
+          {PAGE_LANGS.includes(lang) ? (
+            <div className="grid cards">
+              {CATEGORIES.map((c) => (
+                <a key={c.slug} className="card linkcard product" href={`/${lang}/products/${c.slug}/`}>
+                  <img src={`/products/${c.image}.webp`} alt={c[lang].name} width="640" height="640" loading="lazy" />
+                  <h3>{c[lang].name}</h3>
+                  <p>{c[lang].short}</p>
+                </a>
+              ))}
+            </div>
+          ) : (
           <div className="grid cards">
             {t.cards.map((c, i) => (
               <article key={i} className="card">
@@ -192,6 +168,7 @@ export default function Page({ params }) {
               </article>
             ))}
           </div>
+          )}
         </section>
 
         <section className="container" aria-labelledby="why-title">
@@ -235,23 +212,7 @@ export default function Page({ params }) {
         </section>
       </main>
 
-      <footer>
-        <div
-          className="container"
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            flexWrap: "wrap",
-            gap: "12px",
-          }}
-        >
-          <small>{t.footerLine || `© ${new Date().getFullYear()} FM Traffic.`}</small>
-          <nav aria-label="Footer navigation" style={{ display: "flex", gap: "10px" }}>
-            <a className="pill" href="#products">{t.viewCatalog}</a>
-            <a className="pill" href="mailto:info@fmtrafik.com">info@fmtrafik.com</a>
-          </nav>
-        </div>
-      </footer>
+      <SiteFooter lang={lang} footerLine={t.footerLine} />
     </>
   );
 }

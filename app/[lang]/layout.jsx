@@ -1,3 +1,4 @@
+import '../globals.css';
 const HOST = 'https://fmtraffic.com';
 const SUPPORTED = ['en', 'de', 'nl', 'fr'];
 
@@ -23,7 +24,7 @@ function labels(lang) {
     },
     de: {
       title: 'FM Traffic — Lieferant für Verkehrssicherheitsprodukte in Europa',
-      desc: 'Leitbaken, Verkehrskegel, Temposchwellen, Fahrbahnmarkierung und LED-Warnsysteme. Über 500 CE-zertifizierte Artikel, B2B-Preise, Private Label. Lieferung aus der Türkei.',
+      desc: 'Flexible Leitpfosten, Leitkegel, Bodenschwellen, Fahrbahnmarkierung und LED-Warnleuchten. Über 500 CE-zertifizierte Artikel, B2B-Preise, Private Label. Lieferung aus der Türkei.',
       keywords: [
         'Verkehrssicherheit Produkte kaufen',
         'Leitbaken Großhandel Deutschland',
