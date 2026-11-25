@@ -67,6 +67,142 @@ const T = {
     ctaTitle: 'Bereit für Ihre Anfrage?',
     quote: 'Angebot anfragen',
   },
+  nl: {
+    "title": "Zo werken wij — bestellen, EXW-levering & private label | FM Traffic",
+    "desc": "Zo bestelt u verkeersveiligheidsproducten bij FM Traffic: offerte, orderbevestiging, levering EXW Turkije, douane-unie EU–Turkije, CE-documentatie en private label.",
+    "h1": "Zo werken wij",
+    "lead": "FM Traffic is een leverancier van verkeersveiligheidsproducten, gevestigd in Turkije. Wij leveren aan gemeenten, aannemers en distributeurs uit een assortiment van meer dan 500 CE-gecertificeerde artikelen, en 99% van onze leveringen is op tijd.",
+    "stepsTitle": "Bestellen in vier stappen",
+    "steps": [
+      [
+        "Stuur uw lijst",
+        "Producten, aantallen, kleuren en eventuele wensen voor uw merk."
+      ],
+      [
+        "Ontvang een offerte",
+        "B2B-prijzen voor uw volumes en de levertijd voor uw bestelling."
+      ],
+      [
+        "Bevestig de bestelling",
+        "Wij bevestigen uitvoering, verpakking en ophaaldatum."
+      ],
+      [
+        "Ophalen EXW Turkije",
+        "Uw expediteur haalt de goederen bij ons op."
+      ]
+    ],
+    "sections": [
+      [
+        "Leveringsvoorwaarden",
+        "Wij leveren EXW (af fabriek) Turkije: uw expediteur haalt de goederen op en verzorgt het transport naar uw locatie. De levertijd hangt af van producten en aantallen; wij vermelden die bij elke offerte."
+      ],
+      [
+        "Douane-unie EU–Turkije",
+        "Binnen de douane-unie tussen de EU en Turkije kunnen de meeste industriële goederen zonder invoerrechten in de EU worden ingevoerd met een A.TR-certificaat. Btw bij invoer en nationale regels blijven van toepassing; uw expediteur of douane-expediteur adviseert u over uw zending."
+      ],
+      [
+        "CE-certificering",
+        "Ons assortiment is CE-gecertificeerd. CE-documentatie is op aanvraag beschikbaar voor de bestelde producten."
+      ],
+      [
+        "OEM / private label",
+        "Wij leveren producten in uw kleur, met uw logo en in uw verpakking. Vermeld uw wensen bij uw aanvraag."
+      ]
+    ],
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      [
+        "Hebben jullie een magazijn in de EU?",
+        "Nee. De goederen worden vanuit Turkije geleverd op EXW-basis en door uw expediteur opgehaald."
+      ],
+      [
+        "Zijn jullie fabrikant?",
+        "Nee. FM Traffic is leverancier: wij kopen in en leveren een assortiment van meer dan 500 verkeersveiligheidsartikelen."
+      ],
+      [
+        "Hoe lang duurt de levering?",
+        "Dat hangt af van de producten en aantallen. Wij vermelden de levertijd bij elke offerte."
+      ],
+      [
+        "Kan ik CE-documentatie krijgen?",
+        "Ja. CE-documentatie is op aanvraag beschikbaar voor de bestelde producten."
+      ],
+      [
+        "Kunnen de producten ons merk dragen?",
+        "Ja. Kleur, logo en verpakking kunnen worden aangepast."
+      ]
+    ],
+    "ctaTitle": "Klaar om uw aanvraag te sturen?",
+    "quote": "Offerte aanvragen"
+  },
+  fr: {
+    "title": "Notre fonctionnement — commande, livraison EXW & marque privée | FM Traffic",
+    "desc": "Comment commander des équipements de sécurité routière chez FM Traffic : devis, confirmation de commande, livraison EXW Turquie, union douanière UE–Turquie, documentation CE et marque privée.",
+    "h1": "Notre fonctionnement",
+    "lead": "FM Traffic est un fournisseur d’équipements de sécurité routière basé en Turquie. Nous approvisionnons collectivités, entreprises de travaux et distributeurs avec une gamme de plus de 500 références certifiées CE, et 99 % de nos livraisons sont à temps.",
+    "stepsTitle": "Commander en quatre étapes",
+    "steps": [
+      [
+        "Envoyez votre liste",
+        "Produits, quantités, couleurs et éventuelles exigences de marquage."
+      ],
+      [
+        "Recevez un devis",
+        "Tarifs B2B pour vos volumes et délai pour votre commande."
+      ],
+      [
+        "Confirmez la commande",
+        "Nous confirmons les spécifications, l’emballage et la date d’enlèvement."
+      ],
+      [
+        "Enlèvement EXW Turquie",
+        "Votre transitaire enlève la marchandise chez nous."
+      ]
+    ],
+    "sections": [
+      [
+        "Conditions de livraison",
+        "Nous livrons EXW (départ usine) Turquie : votre transitaire enlève la marchandise et organise le transport jusqu’à votre site. Le délai dépend des produits et des quantités ; nous l’indiquons dans chaque devis."
+      ],
+      [
+        "Union douanière UE–Turquie",
+        "Dans le cadre de l’union douanière entre l’UE et la Turquie, la plupart des produits industriels peuvent être importés dans l’UE sans droits de douane lorsqu’ils sont accompagnés d’un certificat de circulation A.TR. La TVA à l’importation et les règles nationales s’appliquent ; votre transitaire ou commissionnaire en douane vous conseille pour votre envoi."
+      ],
+      [
+        "Certification CE",
+        "Notre gamme est certifiée CE. La documentation CE est disponible sur demande pour les produits commandés."
+      ],
+      [
+        "OEM / marque privée",
+        "Nous pouvons fournir les produits dans votre couleur, avec votre logo et dans votre emballage. Précisez vos exigences dans votre demande."
+      ]
+    ],
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      [
+        "Avez-vous un entrepôt dans l’UE ?",
+        "Non. La marchandise est livrée depuis la Turquie en EXW et enlevée par votre transitaire."
+      ],
+      [
+        "Êtes-vous fabricant ?",
+        "Non. FM Traffic est fournisseur : nous sélectionnons et fournissons une gamme de plus de 500 articles de sécurité routière."
+      ],
+      [
+        "Quel est le délai de livraison ?",
+        "Il dépend des produits et des quantités. Nous l’indiquons dans chaque devis."
+      ],
+      [
+        "Puis-je obtenir la documentation CE ?",
+        "Oui. La documentation CE est disponible sur demande pour les produits commandés."
+      ],
+      [
+        "Les produits peuvent-ils porter notre marque ?",
+        "Oui. Couleur, logo et emballage peuvent être personnalisés."
+      ]
+    ],
+    "ctaTitle": "Prêt à envoyer votre demande ?",
+    "quote": "Demander un devis"
+  },
 };
 
 export function generateMetadata({ params }) {

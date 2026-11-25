@@ -42,7 +42,7 @@ function labels(lang) {
     },
     nl: {
       title: 'FM Traffic — Leverancier van verkeersveiligheidsproducten voor Europa',
-      desc: 'Geleidebakens, verkeerskegels, verkeersdrempels, wegmarkering en LED-waarschuwingssystemen. Meer dan 500 CE-gecertificeerde artikelen, B2B-prijzen, private label. Geleverd vanuit Turkije.',
+      desc: 'Flexibele afzetpalen, verkeerskegels, verkeersdrempels, wegmarkering en LED-waarschuwingslichten. Meer dan 500 CE-gecertificeerde artikelen, B2B-prijzen, private label. Geleverd vanuit Turkije.',
       keywords: [
         'verkeersveiligheid producten groothandel',
         'verkeerskegels kopen Nederland',

@@ -46,6 +46,44 @@ const T = {
     whatsapp: 'Nachricht per WhatsApp',
     direct: 'Direkter Kontakt',
   },
+  nl: {
+    "title": "Contact & offerteaanvraag | FM Traffic",
+    "desc": "Vraag per e-mail of WhatsApp een offerte aan voor verkeersveiligheidsproducten bij FM Traffic. B2B-prijzen, CE-gecertificeerd assortiment, OEM / private label, EXW Turkije.",
+    "h1": "Offerte aanvragen",
+    "lead": "Stuur ons uw aanvraag per e-mail of WhatsApp. Hoe meer van de onderstaande gegevens u meestuurt, hoe sneller u een nauwkeurige offerte ontvangt.",
+    "checklistTitle": "Vermeld graag",
+    "checklist": [
+      "Producten (naam of link van deze website) en aantallen",
+      "Maat en kleur, en eventuele wensen voor logo of verpakking",
+      "Land van levering en of u al met een expediteur werkt",
+      "Gewenste leverdatum",
+      "Bedrijfsnaam en contactpersoon"
+    ],
+    "subject": "Offerteaanvraag",
+    "body": "Producten en aantallen:\n\nMaat / kleur / branding:\n\nLand van levering / expediteur:\n\nGewenste datum:\n\nBedrijf en contactpersoon:\n",
+    "email": "E-mail sturen",
+    "whatsapp": "Bericht via WhatsApp",
+    "direct": "Direct contact"
+  },
+  fr: {
+    "title": "Contact & demande de devis | FM Traffic",
+    "desc": "Demandez un devis pour des équipements de sécurité routière chez FM Traffic par e-mail ou WhatsApp. Tarifs B2B, gamme certifiée CE, OEM / marque privée, EXW Turquie.",
+    "h1": "Demander un devis",
+    "lead": "Envoyez-nous votre demande par e-mail ou WhatsApp. Plus vous indiquez d’informations ci-dessous, plus vite vous recevrez un devis précis.",
+    "checklistTitle": "Merci d’indiquer",
+    "checklist": [
+      "Produits (nom ou lien de ce site) et quantités",
+      "Taille et couleur, ainsi que vos exigences de logo ou d’emballage",
+      "Pays de livraison et si vous travaillez déjà avec un transitaire",
+      "Date souhaitée",
+      "Nom de l’entreprise et interlocuteur"
+    ],
+    "subject": "Demande de devis",
+    "body": "Produits et quantités :\n\nTaille / couleur / marquage :\n\nPays de livraison / transitaire :\n\nDate souhaitée :\n\nEntreprise et interlocuteur :\n",
+    "email": "Écrire un e-mail",
+    "whatsapp": "Message WhatsApp",
+    "direct": "Contact direct"
+  },
 };
 
 export function generateMetadata({ params }) {
