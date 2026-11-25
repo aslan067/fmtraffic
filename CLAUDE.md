@@ -196,7 +196,8 @@ Alternate workflow with auto-detection of package manager (npm/yarn/pnpm). Same 
 
 B2B buyers check these claims, so only use what the business has confirmed:
 
-- **True:** 500+ SKUs, 99% on-time delivery, CE/EN compliant / CE-certified products.
+- **True:** 500+ SKUs, 99% on-time delivery, CE/EN compliant / CE-certified products,
+  OEM / private label (color, logo and packaging customization).
 - **Not true — never claim:** an EU-based warehouse or 48–72h EU dispatch (goods ship from Türkiye),
   "direct manufacturer pricing" (FM Traffic is a **supplier, not a manufacturer**), technical
   documentation / test reports (not available yet; "CE documentation on request" is OK).
