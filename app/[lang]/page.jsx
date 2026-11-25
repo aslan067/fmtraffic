@@ -6,9 +6,8 @@ import en from '../../locales/en.json';
 import de from '../../locales/de.json';
 import nl from '../../locales/nl.json';
 import fr from '../../locales/fr.json';
-import tr from '../../locales/tr.json';
 
-const DICTS = { en, de, nl, fr, tr };
+const DICTS = { en, de, nl, fr };
 const SUPPORTED = Object.keys(DICTS);
 
 const SCHEMA = {
@@ -32,11 +31,6 @@ const SCHEMA = {
     description: "Fournisseur UE d'équipements de sécurité routière. Balises, cônes, ralentisseurs, marquage et systèmes LED.",
     areaServed: "UE",
   },
-  tr: {
-    name: "FM Traffic",
-    description: "AB yol güvenliği ekipmanı tedarikçisi. Delinatör, koni, hız kesici, çizgi ve LED uyarı sistemleri.",
-    areaServed: "AB",
-  },
 };
 
 export default function Page({ params }) {
@@ -55,7 +49,7 @@ export default function Page({ params }) {
       "telephone": "+905454888381",
       "contactType": "sales",
       "areaServed": s.areaServed,
-      "availableLanguage": ["English", "German", "Dutch", "French", "Turkish"]
+      "availableLanguage": ["English", "German", "Dutch", "French"]
     },
     "description": s.description,
     "sameAs": ["https://wa.me/905454888381"]
@@ -93,6 +87,15 @@ export default function Page({ params }) {
                   {l.toUpperCase()}
                 </a>
               ))}
+              <a
+                className="pill"
+                href="https://fmtrafik.com/"
+                hrefLang="tr"
+                lang="tr"
+                aria-label="Türkçe site: fmtrafik.com"
+              >
+                TR
+              </a>
             </div>
           </nav>
         </div>

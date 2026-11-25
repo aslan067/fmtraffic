@@ -1,5 +1,5 @@
 const HOST = 'https://fmtraffic.com';
-const SUPPORTED = ['en', 'de', 'nl', 'fr', 'tr'];
+const SUPPORTED = ['en', 'de', 'nl', 'fr'];
 
 function labels(lang) {
   const texts = {
@@ -73,24 +73,6 @@ function labels(lang) {
         'barrières de sécurité routière',
         'équipement voirie fournisseur Europe',
         'signalisation temporaire chantier',
-      ],
-    },
-    tr: {
-      title: "FM Traffic — Avrupa'ya Hızlı Trafik Güvenliği Tedariki",
-      desc: 'Delinatör, trafik konisi, hız kesici, yol çizgisi ve LED uyarı çözümleri. Hızlı sevkiyat, kurumsal fiyat, özel markalama.',
-      keywords: [
-        'trafik güvenlik ürünleri tedarikçi',
-        'trafik konisi toptan satış',
-        'delinatör üretici Türkiye',
-        'hız kesici kauçuk toptan',
-        'yol çizgi boyası tedarikçi',
-        'LED trafik uyarı lambası',
-        'CE belgeli trafik ürünleri',
-        'yol güvenlik ekipmanları ihracat',
-        'trafik bariyeri üretici',
-        'otopark bolardı toptan',
-        'trafik işaret levhaları tedarik',
-        'Avrupa trafik malzemeleri tedarikçi',
       ],
     },
   };

@@ -10,7 +10,7 @@ FM Traffic (`fmtraffic.com`) is a **multilingual B2B landing page** for a road-s
 - **React**: 18.3.1
 - **Deployment**: GitHub Pages via GitHub Actions
 - **Styling**: Vanilla CSS with CSS custom properties (no Tailwind, no CSS-in-JS)
-- **i18n**: JSON translation files for 5 languages
+- **i18n**: JSON translation files for 4 languages (en, de, nl, fr). Turkish was removed on purpose: fmtraffic.com is international-only; the language switcher's `TR` pill links out to the Turkish corporate site `fmtrafik.com`. Do not re-add a Turkish locale.
 - **No database, no backend, no tests, no Docker**
 
 ---
@@ -30,8 +30,7 @@ fmtraffic/
 │   ├── en.json                 # English translations
 │   ├── de.json                 # German translations
 │   ├── nl.json                 # Dutch translations
-│   ├── fr.json                 # French translations
-│   └── tr.json                 # Turkish translations
+│   └── fr.json                 # French translations
 ├── public/
 │   └── favicon.svg             # Traffic cone SVG logo (orange #ff6a00)
 ├── out/                        # Static build output (git-tracked, auto-generated)
@@ -77,8 +76,8 @@ After `npm run build`, the `out/` directory is served. The site redirects `/` to
 ### Language Routing
 
 - The root `app/page.jsx` detects `navigator.language` and redirects to `/{lang}/`
-- Supported language codes: `en`, `de`, `nl`, `fr`, `tr`
-- `app/[lang]/layout.jsx` uses `generateStaticParams()` to pre-render all 5 language routes
+- Supported language codes: `en`, `de`, `nl`, `fr`
+- `app/[lang]/layout.jsx` uses `generateStaticParams()` to pre-render all 4 language routes
 - Language switching is done via link navigation to `/{lang}/`
 
 ### Translation Files
