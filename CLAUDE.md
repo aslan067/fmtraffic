@@ -54,7 +54,7 @@ Germany is the priority market). Every text has en/de/nl/fr versions — keep th
 
 | Route | File |
 |-------|------|
-| `/{lang}/products/{slug}/` | `app/[lang]/products/[slug]/page.jsx` — 7 categories from `lib/catalog.js` |
+| `/{lang}/products/{slug}/` | `app/[lang]/products/[slug]/page.jsx` — 11 categories from `lib/catalog.js` |
 | `/{lang}/how-we-work/` | `app/[lang]/how-we-work/page.jsx` — ordering steps, EXW, Customs Union, CE, private label, FAQ |
 | `/{lang}/contact/` | `app/[lang]/contact/page.jsx` — quote checklist, prefilled mailto, WhatsApp |
 
