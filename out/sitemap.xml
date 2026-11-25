@@ -11,7 +11,6 @@
     <xhtml:link rel="alternate" hreflang="de"      href="https://fmtraffic.com/de/"/>
     <xhtml:link rel="alternate" hreflang="nl"      href="https://fmtraffic.com/nl/"/>
     <xhtml:link rel="alternate" hreflang="fr"      href="https://fmtraffic.com/fr/"/>
-    <xhtml:link rel="alternate" hreflang="tr"      href="https://fmtraffic.com/tr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://fmtraffic.com/en/"/>
   </url>
 
@@ -24,7 +23,6 @@
     <xhtml:link rel="alternate" hreflang="de"      href="https://fmtraffic.com/de/"/>
     <xhtml:link rel="alternate" hreflang="nl"      href="https://fmtraffic.com/nl/"/>
     <xhtml:link rel="alternate" hreflang="fr"      href="https://fmtraffic.com/fr/"/>
-    <xhtml:link rel="alternate" hreflang="tr"      href="https://fmtraffic.com/tr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://fmtraffic.com/en/"/>
   </url>
 
@@ -37,7 +35,6 @@
     <xhtml:link rel="alternate" hreflang="de"      href="https://fmtraffic.com/de/"/>
     <xhtml:link rel="alternate" hreflang="nl"      href="https://fmtraffic.com/nl/"/>
     <xhtml:link rel="alternate" hreflang="fr"      href="https://fmtraffic.com/fr/"/>
-    <xhtml:link rel="alternate" hreflang="tr"      href="https://fmtraffic.com/tr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://fmtraffic.com/en/"/>
   </url>
 
@@ -50,21 +47,8 @@
     <xhtml:link rel="alternate" hreflang="de"      href="https://fmtraffic.com/de/"/>
     <xhtml:link rel="alternate" hreflang="nl"      href="https://fmtraffic.com/nl/"/>
     <xhtml:link rel="alternate" hreflang="fr"      href="https://fmtraffic.com/fr/"/>
-    <xhtml:link rel="alternate" hreflang="tr"      href="https://fmtraffic.com/tr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://fmtraffic.com/en/"/>
   </url>
 
-  <url>
-    <loc>https://fmtraffic.com/tr/</loc>
-    <lastmod>2025-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en"      href="https://fmtraffic.com/en/"/>
-    <xhtml:link rel="alternate" hreflang="de"      href="https://fmtraffic.com/de/"/>
-    <xhtml:link rel="alternate" hreflang="nl"      href="https://fmtraffic.com/nl/"/>
-    <xhtml:link rel="alternate" hreflang="fr"      href="https://fmtraffic.com/fr/"/>
-    <xhtml:link rel="alternate" hreflang="tr"      href="https://fmtraffic.com/tr/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://fmtraffic.com/en/"/>
-  </url>
 
 </urlset>
