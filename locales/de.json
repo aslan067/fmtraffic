@@ -1,32 +1,55 @@
 {
-  "heroTitle": "Verkehrssicherheitsprodukte mit\nschneller Lieferung in ganz Europa",
-  "heroDesc": "Leitbaken, Verkehrskegel, Temposchwellen, Fahrbahnmarkierung und LED-Warnsysteme. Schneller Versand ab Lager, B2B-Preise, Private Label.",
-  "chips": ["CE/EN Konform", "Schnelle Lieferung", "OEM / Private Label"],
-  "kpi1": "48–72h", "kpi1s": "EU-Versand",
-  "kpi2": "99%", "kpi2s": "Pünktliche Lieferung",
-  "kpi3": "500+", "kpi3s": "Artikel",
+  "heroTitle": "Verkehrs­sicherheits­produkte für europäische Abnehmer, geliefert aus der Türkei",
+  "heroDesc": "Leitbaken, Verkehrskegel, Temposchwellen, Fahrbahnmarkierung und LED-Warnsysteme. Über 500 CE-zertifizierte Artikel, B2B-Preise für Großmengen und Private Label.",
+  "chips": [
+    "CE-zertifiziertes Sortiment",
+    "Versand aus der Türkei",
+    "OEM / Private Label"
+  ],
+  "kpi1": "CE",
+  "kpi1s": "Zertifizierte Produkte",
+  "kpi2": "99%",
+  "kpi2s": "Pünktliche Lieferung",
+  "kpi3": "500+",
+  "kpi3s": "Artikel",
   "productsTitle": "Wichtige Produktlinien",
-  "productsDesc": "Unsere gefragtesten Artikel. Vollständige Spezifikationen im Katalog.",
+  "productsDesc": "Unsere gefragtesten Produktgruppen. Spezifikationen und Varianten auf Anfrage.",
   "bullets": [
-    "CE/EN-konforme Materialien mit hoher UV- und Schlagfestigkeit.",
-    "EU-Lager: Versand innerhalb von 48–72h.",
-    "B2B-Preise und Vertragslieferungen für Großmengen.",
+    "CE/EN-konforme Produkte mit hoher UV- und Schlagfestigkeit.",
+    "Zollunion EU–Türkei: kein Zoll auf die meisten Industriewaren mit A.TR-Bescheinigung.",
+    "99 % pünktliche Lieferungen.",
+    "B2B-Preise und Rahmenverträge für Großmengen.",
     "Marken-Customizing inkl. Farbe, Logo und Verpackung.",
-    "Technische Dokumentation & Prüfberichte."
+    "CE-Unterlagen auf Anfrage."
   ],
   "cards": [
-    { "title": "Leitbaken & Verkehrskegel", "desc": "Hochreflektierende Folie, UV-Beständigkeit, verschiedene Fußoptionen." },
-    { "title": "Temposchwellen", "desc": "Gummi & TPU-Module, schwere Ausführungen mit Reflektoren." },
-    { "title": "Fahrbahnmarkierung", "desc": "Kalt aufzubringende Markierungsfarben, Geräte & Support." },
-    { "title": "LED-Warnsysteme", "desc": "LED-Baken, Blitzleuchten und Solarsysteme." },
-    { "title": "Parken & Barrieren", "desc": "Poller, flexible Barrieren und Schutzsysteme." }
+    {
+      "title": "Leitbaken & Verkehrskegel",
+      "desc": "Hochreflektierende Folie, UV-Beständigkeit, verschiedene Fußoptionen."
+    },
+    {
+      "title": "Temposchwellen",
+      "desc": "Gummi- und TPU-Module, schwere Ausführungen mit Reflektoren."
+    },
+    {
+      "title": "Fahrbahnmarkierung",
+      "desc": "Kalt aufzubringende Markierungsfarben und Geräte."
+    },
+    {
+      "title": "LED-Warnsysteme",
+      "desc": "LED-Baken, Blitzleuchten und Solar-Warnsysteme."
+    },
+    {
+      "title": "Parken & Barrieren",
+      "desc": "Poller, flexible Barrieren und Schutzsysteme."
+    }
   ],
   "contactUs": "Kontakt aufnehmen",
   "viewCatalog": "Produkte ansehen",
   "whatsapp": "WhatsApp schreiben",
   "email": "E-Mail senden",
   "whyTitle": "Warum FM Traffic?",
-  "whyDesc": "Wir beliefern Kommunen, Auftragnehmer und Distributoren in ganz Europa mit Verkehrssicherheitsprodukten. Direktpreise vom Hersteller, CE-zertifizierte Produkte, schneller EU-Versand und vollständige Private-Label-Möglichkeiten.",
+  "whyDesc": "FM Traffic ist ein Lieferant für Verkehrssicherheitsprodukte mit Sitz in der Türkei und beliefert Kommunen, Bauunternehmen und Händler. Wir verbinden ein CE-zertifiziertes Sortiment von über 500 Artikeln, 99 % pünktliche Lieferungen und wettbewerbsfähige B2B-Preise für Großmengen.",
   "ctaTitle": "Bereit zur Bestellung oder Anfrage?",
-  "footerLine": "© FM Traffic. EU-Lieferant für Verkehrssicherheitsprodukte."
+  "footerLine": "© FM Traffic. Lieferant für Verkehrssicherheitsprodukte mit Sitz in der Türkei."
 }

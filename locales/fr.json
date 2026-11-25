@@ -1,32 +1,55 @@
 {
-  "heroTitle": "Produits de sécurité routière avec\nlivraison rapide dans toute l'Europe",
-  "heroDesc": "Balises de guidage, cônes, ralentisseurs, marquage routier et systèmes d'alerte LED. Expédition rapide depuis stock, tarifs B2B, private label.",
-  "chips": ["Conforme CE/EN", "Livraison rapide", "OEM / Marque privée"],
-  "kpi1": "48–72h", "kpi1s": "Expédition UE",
-  "kpi2": "99%", "kpi2s": "Livraison à temps",
-  "kpi3": "500+", "kpi3s": "Références",
+  "heroTitle": "Équipements de sécurité routière pour les acheteurs européens, livrés depuis la Turquie",
+  "heroDesc": "Balises, cônes de signalisation, ralentisseurs, marquage routier et systèmes d'alerte LED. Plus de 500 références certifiées CE, tarifs B2B pour les volumes et marque privée.",
+  "chips": [
+    "Gamme certifiée CE",
+    "Expédié depuis la Turquie",
+    "OEM / Marque privée"
+  ],
+  "kpi1": "CE",
+  "kpi1s": "Produits certifiés",
+  "kpi2": "99%",
+  "kpi2s": "Livraison à temps",
+  "kpi3": "500+",
+  "kpi3s": "Références",
   "productsTitle": "Lignes de produits clés",
-  "productsDesc": "Nos articles les plus demandés. Voir le catalogue pour toutes les variantes.",
+  "productsDesc": "Nos familles de produits les plus demandées. Spécifications et variantes sur demande.",
   "bullets": [
-    "Matériaux conformes CE/EN, haute résistance UV et aux chocs.",
-    "Entrepôt UE : expédition en 48–72h.",
-    "Tarifs B2B et contrats d'approvisionnement pour volumes.",
-    "Personnalisation de marque : couleur, logo, packaging.",
-    "Documentation technique et rapports d'essais."
+    "Produits conformes CE/EN, haute résistance aux UV et aux chocs.",
+    "Union douanière UE–Turquie : pas de droits de douane sur la plupart des produits industriels avec certificat A.TR.",
+    "99 % de livraisons à temps.",
+    "Tarifs B2B et contrats d'approvisionnement pour les volumes.",
+    "Personnalisation de marque : couleur, logo et emballage.",
+    "Documentation CE disponible sur demande."
   ],
   "cards": [
-    { "title": "Balises & Cônes", "desc": "Films hautement rétro-réfléchissants, résistance UV, bases variées." },
-    { "title": "Ralentisseurs", "desc": "Modules en caoutchouc & TPU, versions renforcées avec réflecteurs." },
-    { "title": "Marquage Routier", "desc": "Peintures à froid et équipements, support d'application." },
-    { "title": "Systèmes d'Alerte LED", "desc": "Balises LED, gyrophares, systèmes solaires." },
-    { "title": "Parking & Barrières", "desc": "Bornes de parking, barrières flexibles et protections." }
+    {
+      "title": "Balises & Cônes",
+      "desc": "Films hautement rétroréfléchissants, résistance UV, plusieurs types de socles."
+    },
+    {
+      "title": "Ralentisseurs",
+      "desc": "Modules en caoutchouc et TPU, versions renforcées avec réflecteurs."
+    },
+    {
+      "title": "Marquage routier",
+      "desc": "Peintures de marquage à froid et équipements."
+    },
+    {
+      "title": "Signalisation LED",
+      "desc": "Balises LED, feux flash et systèmes d'alerte solaires."
+    },
+    {
+      "title": "Parking & Barrières",
+      "desc": "Bornes de parking, barrières flexibles et systèmes de protection."
+    }
   ],
   "contactUs": "Nous contacter",
   "viewCatalog": "Voir les produits",
   "whatsapp": "WhatsApp",
   "email": "Envoyer un e-mail",
   "whyTitle": "Pourquoi FM Traffic ?",
-  "whyDesc": "Nous fournissons des équipements de sécurité routière aux municipalités, entrepreneurs et distributeurs à travers l'Europe. Prix fabricant directs, produits certifiés CE, expédition rapide en UE et possibilité de marque privée.",
-  "ctaTitle": "Prêt à commander ou demander un devis ?",
-  "footerLine": "© FM Traffic. Fournisseur européen d'équipements de sécurité routière."
+  "whyDesc": "FM Traffic est un fournisseur d'équipements de sécurité routière basé en Turquie, au service des collectivités, des entreprises de travaux et des distributeurs. Nous associons une gamme de plus de 500 références certifiées CE, 99 % de livraisons à temps et des tarifs B2B compétitifs pour les volumes.",
+  "ctaTitle": "Prêt à commander ou à demander un devis ?",
+  "footerLine": "© FM Traffic. Fournisseur d'équipements de sécurité routière basé en Turquie."
 }

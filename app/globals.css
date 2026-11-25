@@ -74,13 +74,17 @@ nav { display: flex; align-items: center; justify-content: space-between; gap: 1
 }
 
 /* Language switcher */
-.langs { display: flex; gap: 6px }
+.langs { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px }
 .pill { border: 1px solid #27324a; border-radius: 999px; padding: .25rem .6rem; cursor: pointer }
 .pill[aria-current="page"] { background: #25314c; color: #e5e7eb }
+/* External link (Turkish corporate site), visually set apart from the language pills */
+.pill.ext { border-style: dashed; color: var(--muted); margin-left: 6px }
 
 /* Hero */
 .hero { display: grid; align-items: center; gap: 32px; grid-template-columns: 1.1fr .9fr }
-.hero h1 { font-size: clamp(32px, 4.2vw, 56px); line-height: 1.1; margin: 0 }
+.hero > *, .why > * { min-width: 0 }
+.hero h1 { font-size: clamp(28px, 4.2vw, 54px); line-height: 1.1; margin: 0; text-wrap: balance; hyphens: auto; overflow-wrap: break-word }
+h2, h3 { hyphens: auto; overflow-wrap: break-word }
 .hero p { font-size: clamp(15px, 1.6vw, 18px); color: var(--muted); margin: .6rem 0 1.2rem }
 
 /* Feature chips */
@@ -100,11 +104,10 @@ nav { display: flex; align-items: center; justify-content: space-between; gap: 1
 .hero-visual { position: relative; isolation: isolate }
 .cone { width: 100%; height: auto; filter: drop-shadow(0 40px 70px rgba(255,106,0,.18)) }
 
-/* Glass KPI overlay */
+/* Glass KPI panel (sits under the cone, in normal flow so it never overlaps the next section) */
 .glass {
-  position: absolute;
-  inset: auto -8% -10% -8%;
-  height: 38%;
+  position: relative;
+  margin-top: -36px;
   background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
   border: 1px solid #2b3650;
   border-radius: 24px;
@@ -125,11 +128,17 @@ section h2 { margin: 0 0 .3rem; font-size: clamp(22px, 2.4vw, 28px) }
 .muted { color: var(--muted) }
 
 /* Bullet list */
-.list { display: grid; gap: 10px }
+.list { display: grid; gap: 10px; padding: 0; margin: 1rem 0 0 }
+.list svg { flex: none; margin-top: .25rem }
+
+/* Why + CTA block */
+.why { display: grid; grid-template-columns: 1.3fr .7fr; gap: 32px; padding: clamp(20px, 3vw, 32px); align-items: start }
+.why-cta { align-self: center }
 .list li { list-style: none; display: flex; gap: .6rem; align-items: flex-start }
 
 /* Product cards */
-.cards { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) }
+.cards { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); margin-top: 18px }
+#products { padding-top: clamp(32px, 5vw, 56px) }
 .card {
   background: linear-gradient(180deg, #0f172a, #0c1426);
   border: 1px solid #202a45;
@@ -146,8 +155,7 @@ section h2 { margin: 0 0 .3rem; font-size: clamp(22px, 2.4vw, 28px) }
   fill: none;
   filter: drop-shadow(0 2px 6px rgba(255,106,0,.35));
 }
-.cards .card svg rect { stroke: #ffb300; stroke-width: 2; fill: none }
-.cards .card svg path { stroke: #ff6a00; stroke-width: 2; fill: none }
+.cards .card svg path { stroke: var(--brand-2); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; fill: none }
 
 /* Footer */
 footer { border-top: 1px solid #182036; color: #9aa6bf }
@@ -163,4 +171,14 @@ footer { border-top: 1px solid #182036; color: #9aa6bf }
 @media (max-width: 960px) {
   .hero { grid-template-columns: 1fr }
   .row { grid-template-columns: 1fr }
+  .why { grid-template-columns: 1fr }
+  .hero-visual { max-width: 420px; margin-inline: auto }
+}
+@media (max-width: 600px) {
+  .badge { display: none }
+  .langs { gap: 4px }
+  .pill { padding: .2rem .5rem; font-size: .85rem }
+  .pill.ext { margin-left: 0 }
+  .glass { margin-top: -20px }
+  .btn { flex: 1 1 auto; justify-content: center }
 }
