@@ -4,8 +4,8 @@ const SUPPORTED = ['en', 'de', 'nl', 'fr'];
 function labels(lang) {
   const texts = {
     en: {
-      title: 'FM Traffic — Road-Safety Equipment with Fast EU Supply',
-      desc: 'Delineators, traffic cones, speed bumps, line marking and LED warning solutions. Fast EU dispatch, B2B pricing, private labeling.',
+      title: 'FM Traffic — Road-Safety Equipment Supplier for Europe',
+      desc: 'Delineators, traffic cones, speed bumps, line marking and LED warning solutions. 500+ CE-certified items, B2B pricing for volume orders, private labeling. Supplied from Türkiye.',
       keywords: [
         'road safety equipment supplier Europe',
         'traffic cones wholesale',
@@ -22,13 +22,13 @@ function labels(lang) {
       ],
     },
     de: {
-      title: 'FM Traffic — Verkehrssicherheitsprodukte mit schneller EU-Lieferung',
-      desc: 'Leitbaken, Verkehrskegel, Temposchwellen, Fahrbahnmarkierung und LED-Warnsysteme. Schneller Versand, B2B-Preise, Private Label.',
+      title: 'FM Traffic — Lieferant für Verkehrssicherheitsprodukte in Europa',
+      desc: 'Leitbaken, Verkehrskegel, Temposchwellen, Fahrbahnmarkierung und LED-Warnsysteme. Über 500 CE-zertifizierte Artikel, B2B-Preise, Private Label. Lieferung aus der Türkei.',
       keywords: [
         'Verkehrssicherheit Produkte kaufen',
         'Leitbaken Großhandel Deutschland',
         'Verkehrskegel B2B Lieferant',
-        'Temposchwellen Hersteller Europa',
+        'Temposchwellen Lieferant Europa',
         'Fahrbahnmarkierung Farbe Lieferant',
         'LED Warnleuchten Straßenverkehr',
         'CE-zertifizierte Verkehrsprodukte',
@@ -40,8 +40,8 @@ function labels(lang) {
       ],
     },
     nl: {
-      title: 'FM Traffic — Verkeersveiligheidsproducten met snelle EU-levering',
-      desc: 'Geleidebaken, verkeerskegels, snelheidsdrempels, wegmarkering en LED-waarschuwingssystemen. Snelle levering, B2B-tarieven, private label.',
+      title: 'FM Traffic — Leverancier van verkeersveiligheidsproducten voor Europa',
+      desc: 'Geleidebakens, verkeerskegels, verkeersdrempels, wegmarkering en LED-waarschuwingssystemen. Meer dan 500 CE-gecertificeerde artikelen, B2B-prijzen, private label. Geleverd vanuit Turkije.',
       keywords: [
         'verkeersveiligheid producten groothandel',
         'verkeerskegels kopen Nederland',
@@ -58,8 +58,8 @@ function labels(lang) {
       ],
     },
     fr: {
-      title: 'FM Traffic — Sécurité routière, livraison rapide en Europe',
-      desc: "Balises, cônes, ralentisseurs, marquage routier et systèmes d'alerte LED. Expédition rapide, tarifs B2B, marque privée.",
+      title: 'FM Traffic — Fournisseur d’équipements de sécurité routière pour l’Europe',
+      desc: "Balises, cônes, ralentisseurs, marquage routier et systèmes d'alerte LED. Plus de 500 références certifiées CE, tarifs B2B, marque privée. Livré depuis la Turquie.",
       keywords: [
         'équipement sécurité routière fournisseur',
         'cônes de signalisation gros',

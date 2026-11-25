@@ -93,8 +93,8 @@ Each `locales/{lang}.json` has a flat key structure. Keys used in `app/[lang]/pa
 | `kpi2`, `kpi2s` | KPI 2 value + label |
 | `kpi3`, `kpi3s` | KPI 3 value + label |
 | `productsTitle`, `productsDesc` | Products section header |
-| `bullets` | Array of 5 bullet strings (include ✓ prefix) |
-| `cards` | Array of 5 objects: `{ title, desc }` |
+| `bullets` | Array of key-fact strings shown in the "Why FM Traffic" block (no ✓ prefix; the icon is added in JSX) |
+| `cards` | Array of 5 objects: `{ title, desc }` — order must match the `ICONS` array in `page.jsx` (cone, speed bump, line marking, LED beacon, bollard) |
 | `contactUs`, `viewCatalog`, `whatsapp`, `email` | Button labels |
 | `whyTitle`, `whyDesc` | Differentiation section |
 | `ctaTitle` | Call-to-action headline |
@@ -191,6 +191,18 @@ Alternate workflow with auto-detection of package manager (npm/yarn/pnpm). Same 
 - **The `out/` directory is committed** — it contains the pre-built static site used by GitHub Pages
 
 ---
+
+## Content Accuracy (business-confirmed facts)
+
+B2B buyers check these claims, so only use what the business has confirmed:
+
+- **True:** 500+ SKUs, 99% on-time delivery, CE/EN compliant / CE-certified products,
+  OEM / private label (color, logo and packaging customization).
+- **Not true — never claim:** an EU-based warehouse or 48–72h EU dispatch (goods ship from Türkiye),
+  "direct manufacturer pricing" (FM Traffic is a **supplier, not a manufacturer**), technical
+  documentation / test reports (not available yet; "CE documentation on request" is OK).
+- Keep all four locales saying the same facts. German/Dutch hero titles use soft hyphens
+  (`\u00ad`) so long compounds break cleanly on phones.
 
 ## What NOT to Do
 

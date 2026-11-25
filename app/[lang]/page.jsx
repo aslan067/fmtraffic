@@ -13,25 +13,35 @@ const SUPPORTED = Object.keys(DICTS);
 const SCHEMA = {
   en: {
     name: "FM Traffic",
-    description: "EU road-safety equipment supplier. Delineators, traffic cones, speed bumps, line marking and LED warning solutions.",
+    description: "Road-safety equipment supplier based in Türkiye, serving European buyers. Delineators, traffic cones, speed bumps, line marking and LED warning solutions.",
     areaServed: "EU",
   },
   de: {
     name: "FM Traffic",
-    description: "EU-Lieferant für Verkehrssicherheitsprodukte. Leitbaken, Kegel, Temposchwellen, Markierungen und LED-Warngeräte.",
+    description: "Lieferant für Verkehrssicherheitsprodukte mit Sitz in der Türkei für europäische Abnehmer. Leitbaken, Kegel, Temposchwellen, Markierungen und LED-Warnsysteme.",
     areaServed: "EU",
   },
   nl: {
     name: "FM Traffic",
-    description: "EU-leverancier van verkeersveiligheidsproducten. Geleidebaken, kegels, drempels, markering en LED-systemen.",
+    description: "Leverancier van verkeersveiligheidsproducten, gevestigd in Turkije, voor Europese afnemers. Geleidebakens, kegels, drempels, markering en LED-systemen.",
     areaServed: "EU",
   },
   fr: {
     name: "FM Traffic",
-    description: "Fournisseur UE d'équipements de sécurité routière. Balises, cônes, ralentisseurs, marquage et systèmes LED.",
+    description: "Fournisseur d'équipements de sécurité routière basé en Turquie, au service des acheteurs européens. Balises, cônes, ralentisseurs, marquage et systèmes LED.",
     areaServed: "UE",
   },
 };
+
+// Line icons for the product cards, in the same order as `cards` in the locale files:
+// cone, speed bump, line marking, LED beacon, bollard.
+const ICONS = [
+  "M12 3l5 16H7L12 3zM9 12h6M8 16h8M4 21h16",
+  "M3 17c2-5 16-5 18 0M3 17h18M8 13.5l1 3.5M12 12.8V17M16 13.5l-1 3.5",
+  "M4 20L20 4M7 20l2-2M11 16l2-2M15 12l2-2",
+  "M8 14a4 4 0 118 0v4H8v-4zM6 18h12v3H6zM12 3v3M5 7l2 2M19 7l-2 2",
+  "M9 4h6v16H9zM9 8h6M9 12h6M6 20h12",
+];
 
 export default function Page({ params }) {
   const lang = SUPPORTED.includes(params.lang) ? params.lang : 'en';
@@ -72,7 +82,7 @@ export default function Page({ params }) {
                 <path d="M64 42l14 46H50l14-46z" fill="#ff6a00"/>
               </svg>
               <span>FM Traffic</span>
-              <span className="badge">EU Supply</span>
+              <span className="badge">B2B Export</span>
             </a>
 
             <div className="langs" role="navigation" aria-label="Language switcher">
@@ -88,13 +98,14 @@ export default function Page({ params }) {
                 </a>
               ))}
               <a
-                className="pill"
+                className="pill ext"
                 href="https://fmtrafik.com/"
                 hrefLang="tr"
                 lang="tr"
+                title="fmtrafik.com"
                 aria-label="Türkçe site: fmtrafik.com"
               >
-                TR
+                TR <span aria-hidden="true">↗</span>
               </a>
             </div>
           </nav>
@@ -104,7 +115,7 @@ export default function Page({ params }) {
       <main>
         <section className="container hero" aria-label="Hero">
           <div>
-            <h1 style={{ whiteSpace: "pre-line" }}>{t.heroTitle}</h1>
+            <h1>{t.heroTitle}</h1>
             <p className="muted">{t.heroDesc}</p>
 
             <div style={{ margin: ".6rem 0 1rem" }} aria-label="Key features">
@@ -166,66 +177,58 @@ export default function Page({ params }) {
           </div>
         </section>
 
-        <section id="products" className="container grid" aria-labelledby="products-title">
-          <div className="row">
-            <div>
-              <h2 id="products-title">{t.productsTitle}</h2>
-              <p className="muted">{t.productsDesc}</p>
+        <section id="products" className="container" aria-labelledby="products-title">
+          <h2 id="products-title">{t.productsTitle}</h2>
+          <p className="muted">{t.productsDesc}</p>
 
-              <ul className="list" aria-label="Product features">
+          <div className="grid cards">
+            {t.cards.map((c, i) => (
+              <article key={i} className="card">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d={ICONS[i % ICONS.length]} />
+                </svg>
+                <h3>{c.title}</h3>
+                <p>{c.desc}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="container" aria-labelledby="why-title">
+          <div className="card why">
+            <div>
+              <h2 id="why-title">{t.whyTitle}</h2>
+              <p className="muted">{t.whyDesc}</p>
+              <ul className="list" aria-label="Key facts">
                 {t.bullets.map((b, i) => (
                   <li key={i}>
                     <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
                       <path d="M20 7L9 18l-5-5" fill="none" stroke="var(--ok)" strokeWidth="2.5"/>
                     </svg>
-                    {b}
+                    <span>{b}</span>
                   </li>
                 ))}
               </ul>
             </div>
-
-            <div className="grid cards">
-              {t.cards.map((c, i) => (
-                <article key={i} className="card">
-                  <svg viewBox="0 0 24 24" aria-hidden="true">
-                    <rect x="4" y="4" width="16" height="16" rx="2" stroke="#ffb300"/>
-                    <path d="M8 8h8v8H8z" fill="#ff6a00"/>
-                  </svg>
-                  <h3>{c.title}</h3>
-                  <p>{c.desc}</p>
-                </article>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section className="container" aria-labelledby="why-title">
-          <div className="grid card" style={{ padding: "24px" }}>
-            <div className="row">
-              <div>
-                <h2 id="why-title">{t.whyTitle}</h2>
-                <p className="muted">{t.whyDesc}</p>
-              </div>
-              <div>
-                <h2>{t.ctaTitle}</h2>
-                <div className="cta">
-                  <a
-                    className="btn"
-                    href="https://wa.me/905454888381"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={t.whatsapp}
-                  >
-                    {t.whatsapp}
-                  </a>
-                  <a
-                    className="btn secondary"
-                    href="mailto:info@fmtrafik.com"
-                    aria-label={t.email}
-                  >
-                    {t.email}
-                  </a>
-                </div>
+            <div className="why-cta">
+              <h2>{t.ctaTitle}</h2>
+              <div className="cta">
+                <a
+                  className="btn"
+                  href="https://wa.me/905454888381"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={t.whatsapp}
+                >
+                  {t.whatsapp}
+                </a>
+                <a
+                  className="btn secondary"
+                  href="mailto:info@fmtrafik.com"
+                  aria-label={t.email}
+                >
+                  {t.email}
+                </a>
               </div>
             </div>
           </div>
